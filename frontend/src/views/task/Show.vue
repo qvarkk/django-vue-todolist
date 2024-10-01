@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light w-75 mb-3" v-bind:class="(done)?'done':''">
+  <div class="bg-transparent w-75 mb-3" v-bind:class="(done)?'done':''">
     <div class="task-grid">
       <div class="" style="position: relative;">
         <input type="text" class="w-100" disabled :value="text">

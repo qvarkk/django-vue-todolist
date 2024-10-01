@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light w-75 mb-3">
+  <div class="bg-transparent w-75 mb-3">
     <div class="edit-grid">
       <input class="w-100" id="edit_field" type="text" v-model="newText">
       <button @click.prevent="taskStore.updateTaskText(id, newText)"

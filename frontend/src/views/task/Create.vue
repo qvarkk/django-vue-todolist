@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light w-75 mb-3">
+  <div class="bg-transparent w-75 mb-3">
     <div class="add-grid">
       <input class="w-100" type="text" placeholder="Add task" v-model="text">
       <button :class="text !== '' ? 'add-btn valid' : 'add-btn'" :disabled="text === ''" @click.prevent="processAdding()">
